@@ -44,3 +44,10 @@ docker ps
 
 To go inside the container:
 docker exec -it 10bbe8c83279 /bin/bash
+
+
+###How to use the code
+If you are using just main.py file, Just have to run in some python IDE and give the path of the plain text file and press enter. it will execute the code.
+
+Docker
+If you want to run on the docker , you have "run docker command" in the terminal of IDE and give the path of the file. The file should be inside the contain to get the path other wise it will not get the path
