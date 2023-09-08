@@ -3,7 +3,6 @@ import string
 
 def get_successive_word_pairs(text):
     # Split the text into words using whitespace or punctuation as delimiters
-    #words = re.findall(r'\w+|[.,!?;]', text)
     words = text.split()
     #print("I am printing words")
     #print(words)
@@ -16,7 +15,7 @@ def get_successive_word_pairs(text):
     return pairs
 
 def main():
-    file_path = input("Enter the path to the plaintext file: ")
+    file_path = input("Enter the file path ")
 
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
